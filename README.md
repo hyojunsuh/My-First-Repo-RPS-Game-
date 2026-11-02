@@ -11,9 +11,16 @@
 
  some intructions here
 
- 1. Clone the repo from GH
+ 1. Clone the repo from GH (https://github.com/hyojunsuh/My-First-Repo-RPS-Game-), and put it somehwere like desktop
+
  2. Navigate the local repo from te Command Line
- 3. Make sure anaconda base env is active
+
+```
+ cd "/c/Users/hyoju/OneDrive - Georgetown University/Python Class/My-First-Repo-RPS-Game-"
+
+```
+
+ 3. Make sure anaconda base env is active "rps-env" (first time only)
 
 
 
@@ -29,4 +36,17 @@
 
         python app/rps.py
         ```
+
+Create environment:
+
+``` 
+conda create 
+```
+
+
+Activate 
+
+```
+conda actvivate
+```
 
