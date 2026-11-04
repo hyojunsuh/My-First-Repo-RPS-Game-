@@ -1,52 +1,69 @@
 # My-First-Repo-RPS-Game-
  
 
+## Prerequisites
 
- ## Prereqs
+Install python version 3.x (for example using Anaconda).
 
- Install python v3.x (for exMPLE USING aNACONDA)
+## Setup
 
- 
- ## Set up
+some instructions here
 
- some intructions here
+1. Clone the repo from GitHub
+2. Navigate to the local repo from the command line
+3. Make sure the Anaconda base environment is active.
 
- 1. Clone the repo from GH (https://github.com/hyojunsuh/My-First-Repo-RPS-Game-), and put it somehwere like desktop
 
- 2. Navigate the local repo from te Command Line
+Create a virtual environment (establishes environment needed to run including required installments):
 
+```sh
+conda create -n tictactoe-env python=3.11
 ```
- cd "/c/Users/hyoju/OneDrive - Georgetown University/Python Class/My-First-Repo-RPS-Game-"
 
+Activate the virtual environment:
+
+```sh
+conda activate tictactoe-env
 ```
 
- 3. Make sure anaconda base env is active "rps-env" (first time only)
+Install package dependencies within the virtual environment:
 
-
-
-
- ## Usage
- 
- Run example script:
-
-        ```
-        python app/my_script.py
-
-        or 
-
-        python app/rps.py
-        ```
-
-Create environment:
-
-``` 
-conda create 
+```sh
+pip install -r requirements.txt
 ```
 
 
-Activate 
+
+## Usage
+
+some commands here to run our file(s)
+
+Run the example script:
+
+```sh
+python app/my_script.py
+
+# alternatively:
+python -m app.my_script
+```
+
+
+Run the example script:
+
+```sh
+python app/rps.py
+
+# alternatively:
+python -m app.rps
+
+
+
+## Testing
+
+to run tests:
+
+```sh
+
+pytest
 
 ```
-conda actvivate
-```
-
