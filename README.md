@@ -17,13 +17,13 @@ some instructions here
 Create a virtual environment (establishes environment needed to run including required installments):
 
 ```sh
-conda create -n tictactoe-env python=3.11
+conda create -n My-First-Repo-RPS-Game-env python=3.11
 ```
 
 Activate the virtual environment:
 
 ```sh
-conda activate tictactoe-env
+conda activate My-First-Repo-RPS-Game-env 
 ```
 
 Install package dependencies within the virtual environment:
