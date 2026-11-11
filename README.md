@@ -34,36 +34,61 @@ pip install -r requirements.txt
 
 
 
+
+
 ## Usage
 
 some commands here to run our file(s)
 
-Run the example script:
+### Command Line App
+
+    Run the example script:
+
+    ```sh
+    python app/my_script.py
+
+    # alternatively:
+    python -m app.my_script
+    ```
+
+
+    Run the example script:
+
+    ```sh
+    python app/rps.py
+
+    # alternatively:
+    python -m app.rps
+
+
+
+    ## Testing
+
+    to run tests:
+
+    ```sh
+
+    pytest
+
+
+
+
+
+### Web App
+
+
+Run the web app (then view in the browser at http://localhost:5000/):
 
 ```sh
-python app/my_script.py
+# if we have the FLASK_APP=web_app env var in the ".env" file:
+flask run
 
-# alternatively:
-python -m app.my_script
-```
+# Mac OS:
+FLASK_APP=web_app flask run
 
-
-Run the example script:
-
-```sh
-python app/rps.py
-
-# alternatively:
-python -m app.rps
-
-
-
-## Testing
-
-to run tests:
-
-```sh
-
-pytest
-
-```
+# Windows OS:
+# ... if `export` doesn't work for you, try `set` instead
+# ... or set FLASK_APP variable via ".env" file
+export FLASK_APP=web_app
+flask run
+`

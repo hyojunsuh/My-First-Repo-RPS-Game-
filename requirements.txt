@@ -1,5 +1,11 @@
 # requirements
 
-
-
 pytest
+
+
+# for stock dashboard
+#pandas
+#plotly
+
+# for web app
+flask
