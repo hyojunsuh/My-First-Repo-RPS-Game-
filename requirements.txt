@@ -4,8 +4,9 @@ pytest
 
 
 # for stock dashboard
-#pandas
-#plotly
+pandas
+python-dotenv
+plotly
 
 # for web app
 flask
