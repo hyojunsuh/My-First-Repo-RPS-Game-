@@ -103,7 +103,11 @@ some commands here to run our file(s)
 
     ```sh
     # if we have the FLASK_APP=web_app env var in the ".env" file:
+    
     flask run
+
+    #To stop the local web server while it is running, press "control+c" from the termal.        
+
 
     # Mac OS:
     FLASK_APP=web_app flask run

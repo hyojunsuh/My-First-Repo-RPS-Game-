@@ -10,3 +10,11 @@ plotly
 
 # for web app
 flask
+
+
+
+# production server
+
+gunicorn 
+
+
